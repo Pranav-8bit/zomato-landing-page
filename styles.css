@@ -308,3 +308,102 @@
   font-weight: 400;
   letter-spacing: 0.5px;
 }
+
+/* ------------------------------------------- */
+/* Locality container */
+
+.locality__container {
+  margin: 100px 15.5rem;
+  align-items: center;
+}
+
+.locality__container h1 {
+  font-weight: 400;
+  margin-bottom: 50px;
+  font-size: 35px;
+  color: #323232;
+}
+
+.localities_card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+
+.panel1 {
+  position: relative;
+  width: 100%;
+  max-width: 33.33%;
+  padding: 0px 10px 15px 0px;
+}
+
+.panel2 {
+  position: relative;
+  width: 100%;
+  max-width: 33.33%;
+  padding: 0px 5px 15px;
+}
+
+.panel3 {
+  position: relative;
+  width: 100%;
+  max-width: 33.33%;
+  padding: 0px 0px 15px 10px;
+}
+
+.cards {
+  padding: 1.2rem 1.5rem;
+  border-radius: 0.8rem;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(232, 232, 232);
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: rgb(28 28 28/8%) 0px 1.42px 2.85px;
+}
+
+.localities_card .cards_content {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.05rem;
+}
+
+.cards_content > div {
+  width: calc(100%-3.5rem);
+}
+
+.cards h4 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.cards_content p {
+  color: #4f4f4f;
+  font-size: 16px;
+}
+
+.last_panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.9rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .panel1,
+  .panel2,
+  .panel3 {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+  .locality__container {
+    margin: 20px 5rem;
+    align-items: center;
+  }
+}
