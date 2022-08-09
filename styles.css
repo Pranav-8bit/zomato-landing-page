@@ -686,11 +686,13 @@
 
 .explore {
   background: rgb(252, 252, 252);
+  margin: 3rem 15rem;
+  width: 80%;
 }
 
 .explore .explore__option {
   position: relative;
-  max-width: 110rem;
+  max-width: 80%;
   max-height: initial;
   margin: 0px 10px;
   padding-top: 3rem;
